@@ -1,0 +1,161 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+
+  .app-logo {
+    content: url("/images/iXiaThemes.svg");
+    margin-right: 48px;
+  }
+}
+
+.navbar-wrapper {
+  width: -webkit-fill-available;
+  width: -moz-available;
+  margin: auto;
+  padding: 40px 5%;
+  transition: 0.6s;
+
+  &.nav-wrapper-fixed {
+    padding: 16px 5%;
+    background-color: #26262a;
+
+    .app-logo {
+      content: url("/images/iXiaThemes.svg");
+    }
+  }
+}
+
+.menu-item {
+  margin: 0 40px;
+  a {
+    position: relative;
+    transition: 0.3s ease;
+    padding: 4px 0px;
+    text-decoration: none;
+    color: #001719;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 2px;
+      width: 0%;
+      background-color: #001719;
+      transition: 0.3s;
+    }
+
+    &:hover {
+      &::after {
+        width: 90%;
+      }
+    }
+  }
+  &.active a,
+  &.active svg {
+    color: #1d8ece;
+  }
+}
+
+// .ant-dropdown-menu {
+//   box-shadow: unset;
+// }
+
+.icons-wrapper {
+  color: #fff;
+  .icon {
+    margin: 12px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .cart-items {
+    margin-right: 8px;
+    margin-left: -16px;
+    font-size: 12px;
+    background-color: #e79c96;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+  }
+}
+
+.sub-menu,
+.sub-menu-child-wrapper {
+  padding: 12px;
+  border-radius: 3px;
+  background-color: #fff;
+  border: 1px solid #ececec;
+}
+
+.sub-menu-child {
+  padding: 8px 0;
+  :hover {
+    background-color: #747474;
+  }
+}
+
+.ant-dropdown-menu-submenu-title .ant-dropdown-menu-submenu-expand-icon {
+  bottom: 8px;
+}
+
+.navigation-link {
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none !important;
+}
+
+@media only screen and (max-width: 576px) {
+  .navbar-wrapper {
+    padding: 24px 12px;
+  }
+
+  .app-logo {
+    margin-right: 24px !important;
+  }
+
+  .icons-wrapper {
+    justify-content: end;
+    .icon {
+      margin-right: 6px;
+      font-size: 28px;
+    }
+    .cart-items {
+      margin: 0 0 0 -12px;
+      font-size: 10px;
+      height: 16px;
+      width: 16px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .icons-wrapper {
+    justify-content: end;
+    .icon {
+      margin-right: 6px;
+      font-size: 28px;
+    }
+    .cart-items {
+      margin: 0 0 0 -12px;
+      font-size: 10px;
+      height: 16px;
+      width: 16px;
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+}
+
+@media only screen and (max-width: 576px) {
+}

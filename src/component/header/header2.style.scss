@@ -1,0 +1,48 @@
+.top-bar {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  padding: 8px 5%;
+  width: 100%;
+}
+.top-bar-icons svg {
+  color: #1d8ece;
+  margin: 0 16px;
+  cursor: pointer;
+}
+
+.header-wrapper-2 {
+  padding: 12px 0;
+  background-color: #fff;
+  // z-index: 999;
+  .icon-box {
+    display: flex;
+    align-items: center;
+
+    .icon {
+      font-size: 32px;
+      margin-right: 12px;
+      color: #727272;
+    }
+  }
+
+  .title {
+    font-size: 16px;
+    margin: 0;
+    color: #727272;
+    font-weight: 600;
+  }
+  .sub-title {
+    color: grey;
+    margin: 0;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .header-wrapper-2 {
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid #ececec;
+  }
+}

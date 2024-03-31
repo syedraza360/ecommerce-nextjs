@@ -1,0 +1,199 @@
+/*  @Bootstrap heading sizes
+    h1: 40px; h2: 32px; h3: 28px; h4: 24px h5: 20px; h6:16px; 
+ */
+
+.heading-1 {
+  font-size: 68px;
+}
+.heading-2 {
+  font-size: 60px;
+}
+.heading-3 {
+  font-size: 52px;
+}
+.heading-4 {
+  font-size: 48px;
+}
+.heading-5 {
+  font-size: 40px;
+}
+.heading-6 {
+  font-size: 36px;
+}
+.heading-7 {
+  font-size: 32px;
+}
+.heading-8 {
+  font-size: 28px;
+}
+.heading-9 {
+  font-size: 24px;
+}
+.heading-10 {
+  font-size: 18px;
+}
+
+@media (max-width: 1440px) {
+  .heading-1 {
+    font-size: 64px;
+  }
+  .heading-2 {
+    font-size: 56px;
+  }
+  .heading-3 {
+    font-size: 48px;
+  }
+  .heading-4 {
+    font-size: 44px;
+  }
+  .heading-5 {
+    font-size: 36px;
+  }
+  .heading-6 {
+    font-size: 32px;
+  }
+  .heading-7 {
+    font-size: 28px;
+  }
+  .heading-8 {
+    font-size: 24px;
+  }
+  .heading-9 {
+    font-size: 20px;
+  }
+  .heading-10 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .heading-1 {
+    font-size: 56px;
+  }
+  .heading-2 {
+    font-size: 52px;
+  }
+  .heading-3 {
+    font-size: 44px;
+  }
+  .heading-4 {
+    font-size: 40px;
+  }
+  .heading-5 {
+    font-size: 32px;
+  }
+  .heading-6 {
+    font-size: 28px;
+  }
+  .heading-7 {
+    font-size: 24px;
+  }
+  .heading-8 {
+    font-size: 20px;
+  }
+  .heading-9 {
+    font-size: 21px;
+  }
+  .heading-10 {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading-1 {
+    font-size: 48px;
+  }
+  .heading-2 {
+    font-size: 40px;
+  }
+  .heading-3 {
+    font-size: 36px;
+  }
+  .heading-4 {
+    font-size: 32px;
+  }
+  .heading-5 {
+    font-size: 28px;
+  }
+  .heading-6 {
+    font-size: 24px;
+  }
+  .heading-7 {
+    font-size: 20px;
+  }
+  .heading-8 {
+    font-size: 18px;
+  }
+  .heading-9 {
+    font-size: 17px;
+  }
+  .heading-10 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .heading-1 {
+    font-size: 40px;
+  }
+  .heading-2 {
+    font-size: 32px;
+  }
+  .heading-3 {
+    font-size: 28px;
+  }
+  .heading-4 {
+    font-size: 24px;
+  }
+  .heading-5 {
+    font-size: 22px;
+  }
+  .heading-6 {
+    font-size: 20px;
+  }
+  .heading-7 {
+    font-size: 18px;
+  }
+  .heading-8 {
+    font-size: 16px;
+  }
+  .heading-9 {
+    font-size: 15px;
+  }
+  .heading-10 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 425px) {
+  .heading-1 {
+    font-size: 30px;
+  }
+  .heading-2 {
+    font-size: 28px;
+  }
+  .heading-3 {
+    font-size: 24px;
+  }
+  .heading-4 {
+    font-size: 22px;
+  }
+  .heading-5 {
+    font-size: 20px;
+  }
+  .heading-6 {
+    font-size: 18px;
+  }
+  .heading-7 {
+    font-size: 17px;
+  }
+  .heading-8 {
+    font-size: 15px;
+  }
+  .heading-9 {
+    font-size: 14px;
+  }
+  .heading-10 {
+    font-size: 13px;
+  }
+}
